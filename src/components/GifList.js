@@ -6,7 +6,7 @@ class GifList extends Component {
       <ul>
       
         {this.props.list.map(item=>{
-        return <li><img src={item.images.original.url} alt='image'/> </li>
+        return <li><img src={item.images.original.url} alt=''/> </li>
           
         })}
 
