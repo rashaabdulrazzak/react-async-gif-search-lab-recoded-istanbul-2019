@@ -25,7 +25,7 @@ handlerSubmit =()=>{
  render(){
   return (
     <div>
-     <GifSearch />
+     <GifSearch handlerChange={this.handlerChange} handlerSubmit={this.handlerSubmit} />
      <GifList list={this.state.dataimage}/>
     </div>
   )}
