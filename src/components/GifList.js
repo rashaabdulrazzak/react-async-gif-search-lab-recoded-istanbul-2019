@@ -4,7 +4,7 @@ class GifList extends Component {
     return(
       <div> 
       <ul>
-      {this.props.list}
+      {this.props.list}.map(e => {<li> e. </li>})
       </ul>
       </div>
       )
